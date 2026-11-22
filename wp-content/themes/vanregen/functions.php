@@ -547,7 +547,6 @@ function vanregen_enqueue_assets() {
         'toplineCta' => 'vanregen_global_topline_cta',
         'footerStatement' => 'vanregen_global_footer_statement',
         'footerCta' => 'vanregen_global_footer_cta',
-        'footerNote' => 'vanregen_global_footer_note',
         'footerCredit' => 'vanregen_global_footer_credit',
     );
     $site_copy = array();

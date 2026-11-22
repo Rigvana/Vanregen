@@ -187,7 +187,7 @@ button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
 .footer-cta-card p { margin: 13px 0 20px; color: #b9c5b7; font-size: 11px; line-height: 1.65; }
 .footer-contact { min-height: 44px; padding: 0 16px; display: inline-flex; align-items: center; justify-content: space-between; gap: 12px; color: var(--forest-deep); background: var(--leaf); border-radius: 2px; font-size: 10px; font-weight: 700; }
 .footer-contact:hover { color: var(--forest-deep); background: #b7d76d; }
-.footer-bottom { min-height: 66px; padding-top: 20px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 25px; color: #9eaa9b; font-size: 9px; }
+.footer-bottom { min-height: 66px; padding-top: 20px; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 25px; color: #9eaa9b; font-size: 9px; }
 .footer-bottom > span:first-child { line-height: 1.5; }
 .footer-credit { margin: 0; justify-self: end; color: #9eaa9b; font-size: 9px; text-align: right; }
 .draft-note { color: #d8b390; }
@@ -553,7 +553,6 @@ button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
   .footer-cta-card p { margin: 0; }
   .footer-contact { min-width: 190px; }
   .footer-bottom { grid-template-columns: 1fr auto; }
-  .footer-credit { grid-column: 1 / -1; justify-self: start; text-align: left; }
   .interactive-service-flow { padding-left: 7%; padding-right: 7%; }
   .ewaste-materials, .ewaste-impact, .ewaste-consultation { padding-left: 7%; padding-right: 7%; }
   .epr-framework, .epr-records, .epr-audiences, .epr-workflow, .epr-benefits, .epr-closing { padding-left: 7%; padding-right: 7%; }

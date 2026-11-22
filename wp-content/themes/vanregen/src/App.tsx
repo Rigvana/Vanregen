@@ -1448,7 +1448,6 @@ function App() {
         </div>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} {siteCopy('companyName', 'VAN REGEN PRIVATE LIMITED')}</span>
-          <span className="draft-note">{siteCopy('footerNote', 'Capabilities and impact statements require owner verification.')}</span>
           <p className="footer-credit">{siteCopy('footerCredit', 'Website By Money Way Digital Marketing Solutions')}</p>
         </div>
       </footer>
