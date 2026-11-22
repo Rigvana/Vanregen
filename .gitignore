@@ -6,7 +6,6 @@
 # Never commit local configuration, credentials, uploads, or caches.
 /wp-config.php
 /wp-content/debug.log
-/wp-content/uploads/
 /wp-content/cache/
 /wp-content/upgrade/
 /wp-content/backups-dup-lite/
