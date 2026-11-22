@@ -1,0 +1,30 @@
+# Ignore the local WordPress installation and runtime data.
+/*
+!/.gitignore
+!/README.md
+!/wp-content/
+
+/wp-content/*
+!/wp-content/plugins/
+/wp-content/plugins/*
+!/wp-content/plugins/vanregen-content/
+!/wp-content/plugins/vanregen-content/**
+
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/vanregen/
+!/wp-content/themes/vanregen/**
+
+# Rebuildable dependencies and local development output.
+/wp-content/themes/vanregen/node_modules/
+/wp-content/themes/vanregen/.vite/
+/wp-content/themes/vanregen/assets/dist/index.html
+
+# Never commit local configuration, credentials, uploads, or caches.
+/wp-config.php
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups-dup-lite/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
